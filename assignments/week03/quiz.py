@@ -8,7 +8,7 @@ age = int(input("Enter age: "))
 # 60+: Senior
 
 # Your code here:
-
+s
 
 
 # Complete this ATM simulation
