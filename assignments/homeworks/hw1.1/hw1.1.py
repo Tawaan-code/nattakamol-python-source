@@ -14,28 +14,24 @@ entertainment_budget = int(input("Monthly entertainment budget: "))
 emergency_fund_percent = float(input("Percentage to save for emergency: "))
 investment_percent = float(input("Percentage to invest: "))
 
-# คำนวณค่าใช้จ่ายคงที่
+
 Total_Fixed_Expenses = rent_cost + transportation_cost
 
-# คำนวณค่าใช้จ่ายไม่คงที่
 Total_Variable_Expenses = food_budget + entertainment_budget
 
-# รวมค่าใช้จ่ายทั้งหมด
+
 Total_Expenses = Total_Fixed_Expenses + Total_Variable_Expenses
 
-# รายได้คงเหลือหลังหักค่าใช้จ่าย
 Remaining_Income = monthly_income - Total_Expenses
 
-# คำนวณเงินฉุกเฉิน
 Emergency_Fund_Amount = monthly_income * (emergency_fund_percent / 100)
 
-# คำนวณเงินลงทุน
+
 Investment_Amount = monthly_income * (investment_percent / 100)
 
-# เงินเหลือสำหรับออม
+
 Available_for_Savings = Remaining_Income - Emergency_Fund_Amount - Investment_Amount
 
-# สัดส่วนค่าใช้จ่ายต่อรายได้
 Expense_Ratio = (Total_Expenses / monthly_income) * 100
 
 # แสดงผลลัพธ์
