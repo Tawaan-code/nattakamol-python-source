@@ -9,7 +9,7 @@ print(f"Last fruit: {fruits[4]}")       # kiwi
 print(f"Last fruit: {fruits[-1]}")      # kiwi
 print(f"Second last: {fruits[-2]}")     # grape
 
-# List slicing
+# List slicing 
 print(f"First 3 fruits: {fruits[0:3]}")     # ['apple', 'banana', 'orange']
 print(f"From index 2: {fruits[2:]}")        # ['orange', 'grape', 'kiwi']
 print(f"Last 2 fruits: {fruits[-2:]}")      # ['grape', 'kiwi']
