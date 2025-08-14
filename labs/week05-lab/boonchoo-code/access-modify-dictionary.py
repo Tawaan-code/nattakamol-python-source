@@ -1,5 +1,5 @@
 student = {
-    "name": "Alice Smith",
+    "name": "Alice Smith", #การมีkey
     "age": 20,
     "major": "Computer Science",
     "gpa": 3.8,
@@ -71,7 +71,7 @@ last_item = inventory.popitem()
 print(f"Last item removed: {last_item}")
 
 # Clear all items
-backup = inventory.copy()
-inventory.clear()
+backup = inventory.copy() #ย้ายdata ไปอยู่ backup
+inventory.clear() #clear inventory = inventory{}
 print(f"After clear: {inventory}")
 print(f"Backup: {backup}")

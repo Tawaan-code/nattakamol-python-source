@@ -9,7 +9,7 @@ student_info = {
 
 # 2. Fast lookups by key
 phone_book = {
-    "Alice": "123-456-7890",
+    "Alic e": "123-456-7890",
     "Bob": "987-654-3210",
     "Charlie": "555-123-4567"
 }

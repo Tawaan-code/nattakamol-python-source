@@ -203,3 +203,7 @@ print("\n=== Mad Libs Game ===")
 # Example: "The [adjective] [noun] [verb] over the [noun]"
 
 # Write your solution here:
+noun = input("Enter your noun : ")
+verb = input("Enter Your verb : ")
+adjective = input("Enter your adjective : ")
+print(f"The {adjective} {verb} {noun} ever the {noun}")

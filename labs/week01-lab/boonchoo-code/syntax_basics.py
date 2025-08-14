@@ -19,7 +19,8 @@ print("Is Student:", is_student)
 # Exercise 2: Data Types
 # Create variables of different types and print their types
 my_string = "Hello Python"
-my_integer = 42
+
+                                                                                                                                                                                                                                                                                                                                                        my_integer = 42
 my_float = 3.14
 my_boolean = False
 

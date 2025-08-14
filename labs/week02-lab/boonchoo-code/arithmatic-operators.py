@@ -16,6 +16,8 @@ print()
 result_add = a + b
 print(f"Addition:       {a} + {b} = {result_add}")
 
+# 
+
 # Subtraction (-)
 result_sub = a - b
 print(f"Subtraction:    {a} - {b} = {result_sub}")
@@ -157,7 +159,7 @@ print(f"\nBill Breakdown:")
 print(f"Original bill: ${total_bill}")
 print(f"Tip ({tip_percent}%): ${tip_amount:.2f}")
 print(f"Total with tip: ${total_with_tip:.2f}")
-print(f"Amount per person: ${amount_per_person:.2f}")
+print(f"Amount per person: ${amount_per_person:.2f}")+
 print()
 
 # =============================================================================

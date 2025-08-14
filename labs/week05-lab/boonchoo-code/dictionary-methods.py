@@ -7,9 +7,9 @@ print(f"Is Alice in scores? {'Alice' in scores}")
 print(f"Is 'Frank' in scores? {'Frank' in scores}")
 
 # Getting keys, values, items
-print(f"Students: {list(scores.keys())}")
-print(f"Scores: {list(scores.values())}")
-print(f"All data: {list(scores.items())}")
+print(f"Students: {list(scores.keys())}") #บอกข้อมูลทั้งหมด
+print(f"Scores: {list(scores.values())}") #print list 85 92 78 96 89
+print(f"All data: {list(scores.items())}") #พ่น5tuple alice
 
 # Iterating through dictionary
 print("\nAll students and scores:")
@@ -36,7 +36,7 @@ print(f"Lowest score: {worst_student} with {scores[worst_student]}")
 
 # fromkeys() method
 subjects = ["Math", "Science", "English"]
-default_scores = dict.fromkeys(subjects, 0)
+default_scores = dict.fromkeys(subjects, 0) #ตั้งค่าเริ่มต้น = 0
 print(f"Default scores: {default_scores}")
 
 # setdefault() method

@@ -15,9 +15,10 @@ def contact_book():
     def add_contact():
         """Add a new contact to the address book"""
         print("\n=== Add New Contact ===")
-        
+          
         # Get contact information from user
         name = input("Enter contact name: ").strip()
+        
         
         # TODO: Check if contact already exists
         # If exists, ask user if they want to update
@@ -45,7 +46,8 @@ def contact_book():
             return
         
         name = input("Enter contact name to view: ").strip()
-        
+        if name in contacts:
+            info = contacts[name]
         # TODO: Check if contact exists and display information
         # Format the output nicely
         
