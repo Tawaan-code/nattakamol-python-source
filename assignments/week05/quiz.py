@@ -8,7 +8,7 @@ def contact_book():
     # Initialize empty contacts dictionary
     # Key: contact name (string), Value: contact info (dictionary)
     contacts = {
-        "John Doe": {"phone": "123-456-7890", "email": "john@example.com", "category": "friend"},
+        "Johฟn Doe": {"phone": "123-456-7890", "email": "john@example.com", "category": "friend"},
         "Jane Smith": {"phone": "987-654-3210", "email": "jane@example.com", "category": "work"},
     }
     
