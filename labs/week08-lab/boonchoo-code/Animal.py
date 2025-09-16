@@ -32,7 +32,7 @@ class Dog(Animal):
 class Cat(Animal):
     
     def __init__(self, name, color):
-        super().__init__(name, "Feline")
+        super().__init__(name, "Feline")#การใช้ conductor method ของ เเม่่ 
         self.color = color
     
     def make_sound(self):
