@@ -57,9 +57,41 @@ def get_divisibility_hint(number):
         return "HINT: The number is NOT divisible by 3 or 5"
 
 def get_range_hint(number, current_min=1, current_max=100):
-    # Return narrowed range around the number
-    pass
+    print(f"HINT: The narrowed range arount the number is {range(number-12,number+12)}")
 
 def get_thefirst_digit_hint(number):
     # Retun the first digit of the number
+    result = str(number)
+    print(f"HINT: The forst digit of the number is {result[0]}")
     pass
+
+print("==Enchance Guessing Game ==")
+print("Guess my number between 1 and 100!")
+print(" You have unlimited attempts.")
+
+random_number = random.radint(1,100)
+
+attempt = 1
+
+while True:
+
+    guess_number = int(input("Attempt .. - Enter your guess : "))
+
+    if random_number == guess_number:   
+        print(f"Congrulations! You won in {i+1} attempts")
+        break
+    
+    elif random_number < guess_number :
+        print("Too low! Try again.")
+    else:
+        print("Too high! Try again.")
+
+    if attempt == 3:
+        get_parity_hint(random_number)
+    elif attempt == 5:
+        get_divisibility_hint(random_number)
+    elif attempt == 7:
+        get_range_hint(random_number)
+    elif attempt == 10:
+        get_thefirst_digit_hint(random_number)
+    attempt += 1
